@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(231, 231, 231);
+}
+#wrapper {
+    margin: 0px auto;
+    width: 75%;
+    text-align: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer-banner img, #lead-banner img {
+    width: 100%;
+}
+#main-navigation {
+    border: 1px solid black;
+
+}
+nav {
+    height: 50px;
+    text-align: right;
+    background-color: black;
+}
+li{
+    display: inline;
+    margin: 5px;
+    
+}
+li a {
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+li a:hover {
+    background-color: rgb(148, 93, 93);
+    transition: 1s;
+}
+
+#shop{
+    width: 50%;
+    display: inline;
+    margin-top: 70px;
+
+}
+.product-image {
+    width: 40%;
+    margin-top: 60px;
+
+}
+.product-name {
+    font-size: 15px;
+}
+.price {
+    font-size: 55px;
+} 
+.product-description {
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.add-to-bag {
+    padding: 7px 50px;
+    margin-top: 10px;
+    border: 1px solid rgb(180, 150, 150);
+    border-radius: 3px;
+    background-color: rgb(180, 150, 150);
+    text-decoration: none;
+    color: rgb(255, 224, 224);
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.add-to-bag:hover{
+    border: 1px solid rgb(216, 152, 152);
+    background-color: rgb(216, 152, 152);
+}
+.rating {
+    width: 8%;
+}
